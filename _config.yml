@@ -1,9 +1,10 @@
 theme: jekyll-theme-midnight
 
 # Site settings
-#
+
 title: LUHUX
 SEOTitle: LUHUX | Blog
 header-img: img/home-bg-hill.jpg
+description: "LA"
 keyword: "LUHUX"
 url: "https://luhux.github.io"

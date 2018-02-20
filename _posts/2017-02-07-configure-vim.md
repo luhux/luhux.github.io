@@ -1,16 +1,14 @@
 ---
 layout: post
-title: 配置vim为c和python的轻量ide
+title: test
 date: 2017-02-07
 categories: blog
-tags: [python,c,vim]
-description: vim
+tags: [test]
+description: test
 
 ---
 
-操作环境：Debian 9
-
-安装vim 以及vim-nox:
+test
 
     sudo apt install vim vim-nox
 

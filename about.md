@@ -2,8 +2,8 @@
 layout: page
 title: "About"
 description: "博客描述 " 
-header-img: "img/green.jpg"
+header-img: "img/red.jpg"
 ---
 
-爱钻研系统构建的Linux用户
+一个不怎么善于使用git和写作的青年的博客
 

@@ -1,39 +1,9 @@
-# Site settings
-title: LUHUX # 你的博客名字，可以定义修订
-header-img: "img/black.jpg"
-tagline: "cn"
-description: "LUHUX的博客"  # 一句话描述你的博客
-baseurl: ""
-url: "http://luhux.github.io"  # 此处填写你的博客地址 
+name: luhux 博客
+url: http://luhux.github.io
+description: 一个不善于使用git和写作的用户的博客
 
-# About/contact
-owner: 
-  name: "luhux" # 填写作者信息：名字
-  email:  # 填写作者信息：邮箱
-  bio: "重度抖腿症患者" # 填写作者信息：博客描述
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
-# Data
-gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
-favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
-
-github_username: luhux
-
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-timezone: Asia/Shanghai
-
-defaults:
-  -
-    scope: 
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "luhux" # 你的名字
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
-
-theme: jekyll-theme-midnight
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

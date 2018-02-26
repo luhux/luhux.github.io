@@ -1,6 +1,7 @@
 #weechat入门
 
 Weechat 是一个Linux下开源并免费的irc客户端
+本教程是参考官方文档写成的
 
 1. 安装weechat
 在Debian系的系统可以使用apt管理器进行安装

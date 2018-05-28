@@ -1,19 +1,18 @@
 ---
 layout: default
 ---
-<article class="post">
 
-	{% if page.external-url %}
-		<h1>
-			<a href="{{ page.external-url }}">{{ page.title }}</a> 
-			<a class="anchor" href="{{ page.url }}"><i class="icon-anchor"></i></a>
-		</h1>
-	{% else %}
-		<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-	{% endif %}
+<header>
+  <h1 class="post-title">{{ page.title }}</h1>
+</header>
+<div class="content">
+  {% include post-meta.html post=page %}
 
-	<div class="post-content">{{ content }}</div>
+  <div class="post-body">
+    {{ content }}
+    {% include post-tags.html post=page %}
+  </div>
 
-	<p class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span></p>
-
-</article>
+  {% include comments.html %}
+  {% include related_posts.html %}
+</div>

@@ -1,0 +1,43 @@
+# Site Settings
+title: LUHUX | BLOG
+email: luhux@hotmail.com
+description: LUHUX'BLOG
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://luhux.github.io" # the base hostname & protocol for your site
+#google_analytics: "UA-XXXXXXXX-X"
+
+# User Settings
+username: LUHUX
+user_description: A human
+#disqus_username: disqus_username
+
+# Social Media
+# Remove the item if you don't need it
+github_username: luhux
+#facebook_username: 
+#twitter_username: twitter_username
+#instagram_username: instagram_username
+#linkedin_username: linkedin_username
+medium_username: luhux
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

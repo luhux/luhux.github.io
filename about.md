@@ -9,3 +9,5 @@ permalink: /about/
 
 ## About
 
+
+我喜欢夜晚，只是因为在昏暗中无需面对自己。

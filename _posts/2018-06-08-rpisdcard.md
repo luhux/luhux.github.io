@@ -1,5 +1,4 @@
 --- 
-
 layout: post 
 title: "树莓派内存卡" 
 date: 2018-06-08 01:01:06 
@@ -9,7 +8,6 @@ category: ''
 tags: linux raspberrypi sdcard
 twitter_text: 
 introduction: 
-
 --- 
 
 翻译自：

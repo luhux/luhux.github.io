@@ -1,13 +1,15 @@
 --- 
-layout: 
-post title: "RPIsdcard" 
+
+layout: post 
+title: "树莓派内存卡" 
 date: 2018-06-08 01:01:06 
 image: 'https://raw.githubusercontent.com/luhux/images/master/raspberrypi3.jpg' 
 description: 
 category: '' 
-tags: linux,raspberrypi,sdcard
+tags: linux raspberrypi sdcard
 twitter_text: 
 introduction: 
+
 --- 
 
 翻译自：

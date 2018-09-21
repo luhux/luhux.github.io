@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NetBSD挂载u盘
-date:   2018-09-20 11:07
+date:   2018-09-21 11:07
 description: netbsd mount disklable
 comments: true
 ---

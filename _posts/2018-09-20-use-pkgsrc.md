@@ -15,7 +15,7 @@ comments: true
 
 > NetBSD 默认安装 pkgsrc
 
-### 安装已经编译好的软件包
+## 安装已经编译好的软件包
 
 1. 指定源地址
 
@@ -31,7 +31,7 @@ comments: true
 # pkg_add 包名
 ```
 
-### 卸载已经安装好的软件包
+## 卸载已经安装好的软件包
 
 *在NetBSD root用户下运行*
 
@@ -39,7 +39,7 @@ comments: true
 # pkg_delete 包名
 ```
 
-### 查看已经安装好的软件包列表
+## 查看已经安装好的软件包列表
 
 *非必需root*
 
@@ -47,7 +47,7 @@ comments: true
 $ pkg_info
 ```
 
-### 通过包名搜索一个包
+## 通过包名搜索一个包
 
 *这里使用的是我自己的一种方式:*
 
@@ -71,7 +71,7 @@ $ w3m -dump "http://cdn.NetBSD.org/pub/pkgsrc/packages/$(uname -s)/$(uname -m)/$
 $ cat pkg_list | grep 包名
 ```
 
-### 默认安装到的目录
+## 默认安装到的目录
 
 ```
 /usr/pkg/

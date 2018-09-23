@@ -1,11 +1,13 @@
 ---
 layout: post
-title: 在NetBSD上使用包管理器pkgsrc
+title: 在NetBSD上使用包管理器pkgsrc安装二进制包
 date:   2018-09-20 11:10
 description: netbsd pkgsrc binary
 comments: true
 ---
+
 ![pkgsrc](https://raw.githubusercontent.com/luhux/images/master/pkg_add_del_info.png)
+
 ---------------------------------------------
 
 环境: NetBSD 8 amd64 
@@ -15,7 +17,7 @@ comments: true
 
 > NetBSD 默认安装 pkgsrc
 
-## 安装已经编译好的软件包
+# 安装已经编译好的软件包
 
 1. 指定源地址
 
@@ -31,7 +33,7 @@ comments: true
 # pkg_add 包名
 ```
 
-## 卸载已经安装好的软件包
+# 卸载已经安装好的软件包
 
 *在NetBSD root用户下运行*
 
@@ -39,7 +41,7 @@ comments: true
 # pkg_delete 包名
 ```
 
-## 查看已经安装好的软件包列表
+# 查看已经安装好的软件包列表
 
 *非必需root*
 
@@ -47,7 +49,7 @@ comments: true
 $ pkg_info
 ```
 
-## 通过包名搜索一个包
+# 通过包名搜索一个包
 
 *这里使用的是我自己的一种方式:*
 
@@ -71,7 +73,7 @@ $ w3m -dump "http://cdn.NetBSD.org/pub/pkgsrc/packages/$(uname -s)/$(uname -m)/$
 $ cat pkg_list | grep 包名
 ```
 
-## 默认安装到的目录
+# 默认安装到的目录
 
 ```
 /usr/pkg/
@@ -83,3 +85,8 @@ $ cat pkg_list | grep 包名
 $ ls /usr/pkg/
 bin  emul  etc include  lib  libdata  libexec  man  sbin  share  var
 ```
+
+
+--------------------
+
+http://www.netbsd.org/docs/pkgsrc/using.html#installing-binary-packages

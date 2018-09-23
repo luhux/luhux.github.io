@@ -6,4 +6,8 @@ description: default example
 comments: true
 ---
 
-# example
+---------------------------------------------
+
+环境: NetBSD 8 amd64 
+
+---------------------------------------------

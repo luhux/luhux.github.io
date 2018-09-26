@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NetBSD使用pkgin管理二进制包
-date:   2018-02-24 11:07
+date:   2018-09-24 11:07
 description: netbsd pkgsrc pkgin binary
 comments: true
 ---

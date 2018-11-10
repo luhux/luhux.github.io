@@ -1,7 +1,7 @@
 ---
 layout: post
 title: netbsd pkgsrc 创建手动获取源码包脚本
-date:   2018-02-09 11:07
+date:   2018-10-13  12:09
 description: netbsd pkgsrc fetch script source
 comments: true
 ---
